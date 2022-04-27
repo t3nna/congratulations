@@ -57,9 +57,6 @@ h1::after {
 
 .second {
 
-  text-decoration: underline;
-
-
   &::before {
     background-color: var(--bg-color);
     animation: typewriter var(--typewriterSpeed) steps(37) calc(var(--typewriterSpeed) + 1s) forwards;
